@@ -1,1 +1,103 @@
 /* You can add global styles to this file, and also import other style files */
+/* Global dark theme */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #1f1f1f;
+    padding: 15px 30px;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #00bfff !important;
+  }
+  
+  /* Hero section */
+  .hero {
+    height: 100vh;
+    background: url('https://your-image-link.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    color: #d1d1d1;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #00bfff;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #1e90ff;
+    color: #fff;
+  }
+  
+  /* Work experience section */
+  .work-experience .card {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .work-experience .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .work-experience .card h3 {
+    color: #ffffff;
+  }
+  
+  .work-experience .card p {
+    color: #a0a0a0;
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    color: #e0e0e0;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #1e90ff;
+  }
+  

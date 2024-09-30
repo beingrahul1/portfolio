@@ -13,6 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "styles":["node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/animate.css/animate.min.css",
+              "src/styles.css","node_modules/bootstrap-icons/font/bootstrap-icons.css"],"scripts":["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -28,6 +31,7 @@
               "src/styles.css"
             ],
             "scripts": []
+            
           },
           "configurations": {
             "production": {
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4bcce82e-db0e-4e07-ae9e-034a11d8b913"
   }
 }
